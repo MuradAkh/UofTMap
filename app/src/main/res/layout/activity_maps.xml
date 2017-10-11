@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+        <!--
+        <EditText
+            android:id="@+id/building_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Go" />
+        -->
+
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.nbstutorials.googelemapstutorial.MapsActivity" />
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        app:floatingSearch_close_search_on_keyboard_dismiss="false"
+        app:floatingSearch_dimBackground="false"
+        app:floatingSearch_dismissOnOutsideTouch="true"
+        app:floatingSearch_leftActionMode="showSearch"
+        app:floatingSearch_menu="@menu/menu_search_view"
+        app:floatingSearch_searchBarMarginLeft="5dp"
+        app:floatingSearch_searchBarMarginRight="5dp"
+        app:floatingSearch_searchBarMarginTop="0dp"
+        app:floatingSearch_showVoiceInput="true"
+        app:floatingSearch_showMenuAction="true"
+        app:floatingSearch_searchHint="Search..."
+        app:floatingSearch_showSearchKey="true"
+        app:floatingSearch_suggestionsListAnimDuration="250"/>
+
+
+
+
+</RelativeLayout>

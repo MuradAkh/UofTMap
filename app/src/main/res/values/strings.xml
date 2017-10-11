@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UofTMap</string>
+    <string name="title_activity_maps">UofTMap</string>
+    <string name="action_location">123</string>
+    <string name="dialog_text" />
+    <string name="dialog_title">test</string>
+    <string name="action_menu" />
+    <string name="action_food" />
+    <string name="action_building">toggle buildings</string>
+</resources>
